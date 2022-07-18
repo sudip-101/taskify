@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .feature-text{
     margin-bottom: 24px;
 }  
@@ -12,13 +17,13 @@
     margin-bottom: 16px;
 }
 
-.even-column{
+.feature-even-column{
     display: flex;
     justify-content: space-around;
     margin: 0 150px;
 }
 
-.features{
+.feature-features{
     width: 490px;
 }
 
@@ -27,7 +32,7 @@
     font-weight: var(--fw-bold);
 }
 
-.features a{
+.feature-features a{
     margin: 5px 0;
 }
 
@@ -36,7 +41,7 @@
     width: 650px;
 }
 
-.secondary-heading{
+.feature-secondary-heading{
     margin: 10px 0;
     font-weight: var(--fw-bold);
 }
@@ -52,7 +57,7 @@
     max-width: max-content;
   }
   
-  .feature-btn:hover {
+.feature-btn:hover {
     background: #049dd4;
     text-decoration: none;
-  }
+}

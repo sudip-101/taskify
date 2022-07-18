@@ -1,4 +1,9 @@
-.left{
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.achievements-left{
     width: 270px;
     margin: 20px 0;
     margin-left: 150px;
@@ -11,37 +16,37 @@
     margin: 20px 0;
 }
 
-.secondary-heading{
+.achievements-secondary-heading{
     margin-bottom: 16px;
     font-weight: var(--fw-bold);
 }
 
-.right{
+.achievements-right{
     display: flex;
     margin: 20px 0;
     margin-right: 150px;
 }
 
-.achievement-card{
+.achievements-achievement-card{
     text-align: center;
     padding: 0 20px;
 }
 
-.achievement-img{
+.achievements-achievement-img{
     height: 100px;
     margin-bottom: 16px;
 }
 
-.achievement-heading{
+.achievements-achievement-heading{
     margin-bottom: 6px;
 }
 
-.left p a{
+.achievements-left p a{
     color: var(--clr-accent-light);
     text-decoration: none;
     display: inline-block;
 }
 
-.left p a:hover{
+.achievements-left p a:hover{
     text-decoration: underline;
 }
