@@ -1,0 +1,128 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+:root {
+    --fs-head: 2.5rem;
+    --fs-normal: 1.5rem;
+    --fs-medium-light: #686868;
+    --color-text: #fff;
+
+    --ff-head:font-family: 'Merriweather', serif;
+
+    --primary-grad: #6f42c1;
+    --secondary-grad: #5427cf;
+
+  
+  
+    --fw-200: 200;
+    --fw-light: 300;
+    --fw-regular: 400;
+    --fw-bold: 700;
+  
+    --gen-padding: 24px 40px;
+  
+    
+  }
+
+.head{
+    display: flex;
+    position: relative;
+    text-align: center;
+    justify-content: space-between;
+    padding: 3rem 5rem;
+
+    
+}
+.opion{
+    outline: none;
+}
+.cards-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 2rem 5rem;
+    /* height: 30rem; */
+}
+
+.card{
+    background-color: #e6edefdc;
+    width: 30%;
+    border-radius: 12px;
+    padding-top: 2rem;
+    text-align: center;
+    
+}
+.project{
+    font-size:2rem ;
+    font-weight: var(--fw-bold);
+    justify-content: center;
+    cursor: pointer;
+}
+
+.custom-select{
+    font-size:1.15rem;
+    padding: 0.5rem;
+    border: 2px solid #dddddd;
+    cursor: pointer;
+    background-color: #f7f4f4;
+    border-radius: 6px ;
+    outline: none;
+}
+
+
+.card-head{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 1.5rem;
+    font-weight: 700;
+}
+
+
+
+.task-number{
+    color: rgb(26, 94, 99);
+    background-color: #9ab9c4;
+    width: 30px;
+    border-radius: 12px;
+    border-top-right-radius: 0;
+
+}
+
+.add-button{
+    color: rgb(26, 94, 99);
+    background-color: #9ab9c4;
+    margin: 2rem 1.5rem;
+    height: 2rem;
+    border-radius: 6px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    font-weight: 700;
+    cursor: pointer;
+
+}
+
+.task{
+    margin: 2rem 1rem;
+    background: #fff;
+    border-radius: 0.5rem;
+}
+
+
+
+.task-head{
+    font-weight: var(--fw-bold);
+    text-align: left;
+    display: flex;
+    padding-top: 1rem;
+    margin: 2rem 1rem;
+}
+
+.task-description{
+    padding: 0 1rem 2rem;
+    text-align: left;
+    color: rgb(75, 77, 80);
+}
