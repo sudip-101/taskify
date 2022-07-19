@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
 .dashboard-navbar-container{
     width: 75%;
     position: absolute;
@@ -7,40 +12,40 @@
     box-shadow: rgba(0, 0, 0, 0.45) 0px 25px 20px -20px;
 }
 
-.dashboard-navbar{
+.dashboard-navbar-dashboard-navbar{
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.dashboard-navbar-links{
+.dashboard-navbar-dashboard-navbar-links{
     display: flex;
     align-items: center;
 }
 
-.dashboard-navbar-links li{
+.dashboard-navbar-dashboard-navbar-links li{
     margin: 0 10px;
 }
 
-.link-img{
+.dashboard-navbar-link-img{
     height: 25px;
     border-radius: 50%;
 }
 
-.bell-icon{
+.dashboard-navbar-bell-icon{
     height: 29.5px;
 }
 
-.profile-icon{
+.dashboard-navbar-profile-icon{
     height: 40px;
     margin-left: 10px;
 }
 
-.link-img:hover{
+.dashboard-navbar-link-img:hover{
     box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
 }
 
-.search-bar{
+.dashboard-navbar-search-bar{
     width: 400px;
     display: flex;
     align-items: center;
@@ -49,7 +54,7 @@
     padding: 10px 20px;
 }
 
-.search-bar input{
+.dashboard-navbar-search-bar input{
     width: 100%;
     border: 0;
     background-color: transparent;
@@ -57,11 +62,11 @@
     padding: 0 12px;
 }
 
-.button-img{
+.dashboard-navbar-button-img{
     height: 25px;
 }
 
-.search-bar button{
+.dashboard-navbar-search-bar button{
     border-radius: 50%;
     background-color: #E0DECA;
     height: 40px;
