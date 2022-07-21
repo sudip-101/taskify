@@ -13,7 +13,7 @@
   display: flex;
   margin: 2px;
 }
-img {
+.sidebar-logo img {
   width: 89px;
 }
 .sidebar-title {
